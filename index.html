@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task-CSS-Bootstrap-Tailwind</title>
+  <!-- css -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- Tailwind -->
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <div id="container-fluid"><header >
+    <nav class="navBar1 ">
+      <img id="logo" src="./images/Logo3.png" alt="">
+      <Label for="exp"> Search here:
+        <input id="exp" type="number" placeholder="Enter product ID"></Label>
+      <div class="nav">
+        <ul class="navList2">
+          <li class="navList"><a class="link " href="#logo">Home</a></li>
+          <li class="navList"><a class="link" href="#intro1">About</a></li>
+          <li class="navList"><a class="link" href="#usere1">Laptops</a></li>
+          <li class="navList"><a class="link" href="#usere2">Service</a></li>
+          <li class="navList"><a class="link" href="">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  <nav class="line bg-danger"></nav></header>
+
+    <!-- Offer Tag -->
+    <div id="usere" >
+      <div
+        class="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
+        <div class="absolute left-[max(-7rem,calc(50%-52rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl"
+          aria-hidden="true">
+          <div class="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-30"
+            style="clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)">
+          </div>
+        </div>
+        <div class="absolute left-[max(45rem,calc(50%+8rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl"
+          aria-hidden="true">
+          <div class="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-30"
+            style="clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)">
+          </div>
+        </div>
+        <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
+          <p class="text-sm leading-6 text-gray-900">
+            <strong class="font-semibold">Festive Offers 2024</strong><svg viewBox="0 0 2 2"
+              class="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true">
+              <circle cx="1" cy="1" r="1" />
+            </svg>Checkout the latest offers on Gaming Laptop series.
+          </p>
+          <a href="#"
+            class="flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">Register
+            now <span aria-hidden="true">&rarr;</span></a>
+        </div>
+        <div class="flex flex-1 justify-end">
+          <button type="button" class="-m-3 p-3 focus-visible:outline-offset-[-4px]">
+            <span class="sr-only">Dismiss</span>
+            <svg class="h-5 w-5 text-gray-900" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+              data-slot="icon">
+              <path
+                d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+    </div>
+    <!-- Carousel -->
+    <div>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1500">
+            <img height="650px" src="./images/Product-unsplash.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block ">
+              <h5 class="txt">Gaming Deals</h5>
+              <p class="txt">Boost your gaming experience with our new vecto series.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1500">
+            <img height="650px" src="./images/nordwood-themes-EZSm8xRjnX0-unsplash.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="txt">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Festive sale</h5>
+              <p class="txt">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Brighten
+                up your festival with Massive Savings.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1500">
+            <img height="650px" src="./images/dell-8pb7Hq539Zw-unsplash.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="txt">Premium Laptops</h5>
+              <p class="txt">Experience latest premium touchscreen laptops enhanced by AI.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- introduction -->
+    <div id="intro1" >
+      <div id="introtxt">
+        <p>
+        <h2 id="vector">Vector</h2><span>
+          <h5 id="slgn">The brand you can Trust</h5>
+        </span>
+        <h5>Sleek Design, Latest Technology, Effortless Mobility</h5>
+        <h5>Bring home the latest Laptops</h5>
+        </p>
+      </div>
+      <div class="image-fluid"> <img width="600px" id="introimg" src="./images/thomas-jensen-GztZ77a0tAM-unsplash.jpg" alt=""></div>
+    </div>
+    <section id="usere1">
+      <h2>Shop by user</h2>
+    </section>
+
+    <!-- Products -->
+    <div class="prd  col-sm-2 col-md-4 col-lg-12" id="prd1">
+      <Div id="product">
+        <img height="200px" width="100%" src="./images/Product-unsplash.jpg" alt="">
+        <dl id="des1"><br>
+          <dt class="brown">Gaming Laptop</dt>
+          <dd>High performance series processor</dd>
+          <dd>32GB ram/1TB SSD</dd>
+          <dd>4 Hours Battery Backup</dd>
+        </dl>
+      </Div>
+      <Div id="product">
+        <img height="200px" width="100%" src="./images/Product-unsplash.jpg" alt="">
+        <dl id="des1"><br>
+          <dt class="brown">Coding Laptop</dt>
+          <dd>Performance series processor</dd>
+          <dd>16GB ram/500GB SSD</dd>
+          <dd>6 Hours Battery Backup</dd>
+        </dl>
+      </Div>
+      <Div id="product">
+        <img height="200px" width="100%" src="./images/Product-unsplash.jpg" alt="">
+        <dl id="des1"><br>
+          <dt class="brown">Daily Laptop</dt>
+          <dd>Power efficient series processor</dd>
+          <dd>8GB ram/500GB SSD</dd>
+          <dd>12 Hours Battery Backup</dd>
+        </dl>
+      </Div>
+      <Div id="product">
+        <img height="200px" width="100%" src="./images/Product-unsplash.jpg" alt="">
+        <dl id="des1"><br>
+          <dt class="brown">Vector Book</dt>
+          <dd>Broke Dragon processor</dd>
+          <dd>6GB ram/500GB Storage</dd>
+          <dd>Android OS</dd>
+        </dl>
+      </Div>
+    </div>
+
+    <section id="usere1">
+      <h2>Products:</h2>
+    </section>
+
+    <!-- Accessories/Product Gallery -->
+    <section class="imggalall col-sm-2 col-md-4 col-lg-12 ">
+      <div class="imggal ">
+        <div id="im1"><img class="im" src="./images/c-d-x-PDX_a_82obo-unsplash.jpg" alt="Headset"><a class="acc"
+            href="">Headphones</a></div>
+        <div id="im2"><img class="im" src="./images/Cover-unsplash.jpg" alt="Keyboard"><a class="acc"
+            href="">Keyboards</a></div>
+        <div id="im3"><img class="im" src="./images/angelo-pantazis-MQI75GpnuNk-unsplash.jpg" alt="Monitor"><a
+            class="acc" href="">LED Monitors</a></div>
+        <div id="im4"><img class="im" src="./images/alexandru-acea-A3FohRFYW2A-unsplash.jpg" alt="Keyboard"><a
+            class="acc" href="">Other Accessories</a></div>
+        <div id="im5"><img class="im" src="./images/rafal-jedrzejek-ogrGCU5uSxc-unsplash.jpg" alt="Combo"><a class="acc"
+            href="">Gaming Monitors</a></div>
+        <div id="im6"><img class="im" src="./images/Product-unsplash.jpg" alt="Laptop"><a class="acc"
+            href="">Laptops</a></div>
+        <div id="im7"><img class="im" src="./images/alex-litvin-MAYsdoYpGuk-unsplash.jpg" alt="Projector"><a class="acc"
+            href="">Projectors</a></div>
+      </div>
+    </section>
+    <!-- Support Icons -->
+    <div id="usere2">
+      <h4 class="fw-bold">Vector Support</h4>
+      <h3 class="fw-bold2">We are here to Help</h3>
+    </div>
+    <section ID="icon2">
+
+      <div class="icons1">
+        <div id="ic1"><a class="fl1" href=""><i class="fa-solid fa-house fa-2xl"></i><span class="brown">Support
+              Home</span></i></a></div>
+        <div id="ic2"><a class="fl1" href=""><i class="fa-solid fa-gear fa-2xl"></i><span class="brown">Drivers and
+              downloads</span></i></a></div>
+        <div id="ic3"><a class="fl1" href=""><i class="fa-solid fa-headphones fa-2xl"></i><span
+              class="brown">Support</span></i></a></div>
+        <div id="ic4"><a class="fl1" href=""><i class="fa-solid fa-truck fa-2xl"></i><span class="brown">Upgrade
+              Orders</span></i></a></div>
+      </div>
+    </section>
+    <!-- login -->
+    <section class="loginsec">
+      <div id="login"><br>
+        <h5 class="fw-bold text-danger">My Account</h5>
+        <h4>Login to personalize preferences on your purchase</h4>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control w-75 ms-12" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3 ">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control w-75 ms-12" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <button type="submit" class="btn btn-danger mb-3">Submit</button>&nbsp;&nbsp;
+            <p>
+            <h4 class="mb-3 ">Dont have a Vector Account? <a href="">Create an Account</a></h4>
+            </p>
+          </div><br>
+        </form>
+      </div><br>
+
+    </section>
+    <!-- Footer -->
+    <footer class="footer col-sm-2 col-lg-12 ">
+      <div class="footerdiv">
+        <ul id="lnk2">
+          <li class="list1 heading brown">
+            <h6>Account</h6>
+          </li>
+          <li class="list1"><a class="lnk1" href="">My Account</a></li>
+          <li class="list1"><a class="lnk1" href="">Order status</a></li>
+          <li class="list1"><a class="lnk1" href="">My products</a></li>
+        </ul>
+        <ul id="lnk3">
+          <li class="list1 heading brown">
+            <h6>Support</h6>
+          </li>
+          <li class="list1"><a class="lnk1" href="">Support Home</a></li>
+          <li class="list1"><a class="lnk1" href="">Contact Tech Support</a></li>
+        </ul>
+        <ul id="lnk4">
+          <li class="list1 heading brown">
+            <h6>Connect with Us</h6>
+          </li>
+          <li class="list1"><a class="lnk1" href="">Community</a></li>
+          <li class="list1"><a class="lnk1" href="">Contact Us</a></li>
+        </ul>
+        <ul id="lnk5">
+          <li class="list1 heading brown">
+            <h6>About us</h6>
+          </li>
+          <li class="list1"><a class="lnk1" href="">Who we are</a></li>
+          <li class="list1"><a class="lnk1" href="">News Room</a></li>
+          <li class="list1"><a class="lnk1" href="">Recycling</a></li>
+        </ul>
+      </div><br>
+      <!-- Provide Rating -->
+      <div class="rating"><br>
+        <p>Based on my visit today, I would say Vector is.... <br>
+          <p>Not at all innovative &nbsp;&nbsp;
+            <a href=""><i class="fa-regular fa-star fa-xl"></i></a>
+            <a href=""><i class="fa-regular fa-star fa-xl"></i></a>
+            <a href=""><i class="fa-regular fa-star fa-xl"></i></a>
+            <a href=""><i class="fa-regular fa-star fa-xl"></i></a>
+            <a href=""><i class="fa-regular fa-star fa-xl"></i></a>  
+            &nbsp;&nbsp;Extremely innovative</p>
+        </p><br>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
